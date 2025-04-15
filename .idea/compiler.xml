@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+      </profile>
+      <profile name="Annotation profile for xiaohashu" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$PROJECT_DIR$/../../maven/apache-maven-3.9.9/mvn_resp/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar" />
+        </processorPath>
+        <module name="xiaohashu-auth" />
+        <module name="xiaohashu-oss-api" />
+        <module name="xiaohashu-oss-biz" />
+        <module name="xiaohashu-gateway" />
+        <module name="xiaoha-spring-boot-starter-biz-operationlog" />
+        <module name="xiaohashu-user-api" />
+        <module name="xiaohashu-distributed-id-generator-biz" />
+        <module name="xiaohashu-kv-biz" />
+        <module name="xiaoha-spring-boot-starter-biz-context" />
+        <module name="xiaoha-spring-boot-starter-jackson" />
+        <module name="xiaohashu-user-biz" />
+        <module name="xiaoha-common" />
+        <module name="xiaohashu-distributed-id-generator-api" />
+        <module name="xiaohashu-kv-api" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>
